@@ -10,15 +10,22 @@
   }
   
   .left, .right {
-    width: 25%;
+    width: 20%;
+    background-color:#eee;
   }
   
   .middle {
-    width: 50%;
+    width: 60%;
   }
   
+
+  .article-row {
+    width: 100%;
+  }
+
+  
   /* Clear floats after the columns */
-  .row:after {
+  .article-row:after {
     content: "";
     display: table;
     clear: both;
